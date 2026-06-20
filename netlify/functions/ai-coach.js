@@ -47,7 +47,7 @@ Respond with ONLY a JSON array of strings, one per tip. No markdown, no preamble
         "anthropic-version": "2023-06-01",
       },
       body: JSON.stringify({
-        model: "claude-sonnet-4-6",
+        model: "claude-haiku-4-5",
         max_tokens: 500,
         messages: [{ role: "user", content: prompt }],
       }),
